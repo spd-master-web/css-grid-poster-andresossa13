@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family:sans-serif;
 }
 
 .container {
@@ -22,10 +23,16 @@ body {
 /* Styling */
 .item {
   background: yellow;
-  text-align: center;
-  padding: 10px;
+  text-align: left;
+  padding: 20px;
   padding-top: 400px;
-  
+}
+
+h1 {
+  position: absolute;
+  padding-top: 170px;
+  padding-left: 20px;
+  font-size: 58px;
 }
 
 .item2 {
@@ -38,16 +45,25 @@ body {
 
 .item1 {
   
-  background-image: linear-gradient(to top, blue 50%, white 50%);
+  background-image: linear-gradient(to top, blue 30%, white 30%);
+  opacity: 70%;
  
 }
 
 .item3 {
-  background-image: linear-gradient(to top, white 50%, blue 50%);
+  background-image: linear-gradient(to top, white 30%, blue 30%);
+  opacity: 70%;
 }
 
-body {
-  font-family:sans-serif;
+.item4 {
+  background-image: linear-gradient(to top, blue 30%, yellow 30%);
+  
 }
+
+.item5 {
+  background-image: linear-gradient(to top, red 30%, blue 30%);
+  
+}
+
 
 
